@@ -1,4 +1,4 @@
-![E2E](./img/E2E_Logo.png)
+![E2E](./img/E2E_Logo_github.png)
 
-# Project E2E
+# About Project E2E
 And some other nonesense
