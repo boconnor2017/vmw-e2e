@@ -11,3 +11,8 @@ A solution portfolio defines the relationship among implemented solutions of a p
 An E2E solution should therefore explicitly define the **people** and **process** required to generate the expected results of a **product**.
 
 ![E2E](./img/E2E_PPP.png)
+
+**Success Criteria:**
+1. People: should contain roles and skillsets that are normally found in enterprise organizations
+2. Process: should be repeatable and should always produce the same result
+3. Product: should be tangible and should match exactly to the expected result
