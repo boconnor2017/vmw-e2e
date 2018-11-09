@@ -18,4 +18,7 @@ An E2E solution should therefore explicitly define the **people** and **process*
 3. Product: should be tangible and should match exactly to the expected result
 4. Level of Effort: The amount of time from beginning to end to complete a process in a perfect scenario (no contingency or buffer)
 5. The Level of Effort for a solution should never exceed two weeks (one sprint)
-6. The number of people should follow the [two pizza rule](https://www.inc.com/business-insider/jeff-bezos-productivity-tip-two-pizza-rule.html)
+6. The War Room: a round table with enough seats for only the people actively participating in the process
+7. The number of people to invite into the War Room should follow the [two pizza rule](https://www.inc.com/business-insider/jeff-bezos-productivity-tip-two-pizza-rule.html)
+8. Each E2E solution must demonstrate through a video recording that The War Room can execute the documented process within the defined Level of Effort and can produce the Product repetitively
+9. The individual responsible for creating the E2E solution cannot be a member of The War Room
