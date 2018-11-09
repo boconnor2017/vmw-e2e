@@ -16,3 +16,6 @@ An E2E solution should therefore explicitly define the **people** and **process*
 1. People: should contain roles and skillsets that are normally found in enterprise organizations
 2. Process: should be repeatable and should always produce the same result
 3. Product: should be tangible and should match exactly to the expected result
+4. Level of Effort: The amount of time from beginning to end to complete a process in a perfect scenario (no contingency or buffer)
+5. The Level of Effort for a solution should never exceed two weeks (one sprint)
+6. The number of people should follow the [two pizza rule](https://www.inc.com/business-insider/jeff-bezos-productivity-tip-two-pizza-rule.html)
