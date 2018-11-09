@@ -50,3 +50,10 @@ Build the E2E docker image
 ```
 root@photon-machine [ /usr/local/vmw-e2e ]# docker build -t e2e-solutions .
 ```
+
+Run the E2E container
+```
+root@photon-machine [ /usr/local/vmw-e2e ]# docker run --name e2e-gui -d -p 80:80 e2e-solutions
+```
+
+Open a browser. Enter `http://<photon_ip_address>`
