@@ -22,3 +22,11 @@ An E2E solution should therefore explicitly define the **people** and **process*
 7. The number of people to invite into the War Room should follow the [two pizza rule](https://www.inc.com/business-insider/jeff-bezos-productivity-tip-two-pizza-rule.html)
 8. Each E2E solution must demonstrate through a video recording that The War Room can execute the documented process within the defined Level of Effort and can produce the Product repetitively
 9. The individual responsible for creating the E2E solution cannot be a member of The War Room
+
+# Getting Started
+Deploy [PhotonOS](https://vmware.github.io/photon/) to your laptop using [Fusion](https://www.vmware.com/products/fusion.html) or [Workstation](https://www.vmware.com/products/workstation-pro.html).
+
+Open a PuTTY session and connect to your PhotonOS VM. Clone this repository:
+```
+git clone
+```
