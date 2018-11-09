@@ -28,10 +28,25 @@ Deploy [PhotonOS](https://vmware.github.io/photon/) to your laptop using [Fusion
 
 Open a PuTTY session and connect to your PhotonOS VM. Navigate to `/usr/local/` directory:
 ```
-cd /usr/local
+root@photon-machine [ ~ ]# cd /usr/local/
+```
+
+Install `git`
+```
+root@photon-machine [ /usr/local ]# yum install git
 ```
 
 Clone this repository:
 ```
-git clone https://github.com/boconnor2017/vmw-e2e.git
+root@photon-machine [ /usr/local ]# git clone https://github.com/boconnor2017/vmw-e2e.git
+```
+
+Navigate to the `\vmw-e2e` directory
+```
+root@photon-machine [ /usr/local ]# cd vmw-e2e/
+```
+
+Build the E2E docker image
+```
+root@photon-machine [ /usr/local/vmw-e2e ]# docker build -t e2e-solutions .
 ```
