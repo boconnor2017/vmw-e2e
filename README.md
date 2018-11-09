@@ -26,7 +26,12 @@ An E2E solution should therefore explicitly define the **people** and **process*
 # Getting Started
 Deploy [PhotonOS](https://vmware.github.io/photon/) to your laptop using [Fusion](https://www.vmware.com/products/fusion.html) or [Workstation](https://www.vmware.com/products/workstation-pro.html).
 
-Open a PuTTY session and connect to your PhotonOS VM. Clone this repository:
+Open a PuTTY session and connect to your PhotonOS VM. Navigate to `/usr/local/` directory:
 ```
-git clone
+cd /usr/local
+```
+
+Clone this repository:
+```
+git clone https://github.com/boconnor2017/vmw-e2e.git
 ```
