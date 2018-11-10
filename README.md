@@ -51,7 +51,7 @@ Start Docker
 root@photon-machine [ /usr/local/vmw-e2e ]# systemctl start docker
 ```
 
-Build the E2E docker image
+Build the E2E docker image (yes the dot at the end of the command is intentional, dont forget to add it)
 ```
 root@photon-machine [ /usr/local/vmw-e2e ]# docker build -t e2e-solutions .
 ```
