@@ -46,6 +46,11 @@ Navigate to the `\vmw-e2e` directory
 root@photon-machine [ /usr/local ]# cd vmw-e2e/
 ```
 
+Start Docker
+```
+root@photon-machine [ /usr/local/vmw-e2e ]# systemctl start docker
+```
+
 Build the E2E docker image
 ```
 root@photon-machine [ /usr/local/vmw-e2e ]# docker build -t e2e-solutions .
