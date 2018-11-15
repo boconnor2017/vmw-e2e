@@ -41,7 +41,7 @@ Clone this repository:
 root@photon-machine [ /usr/local ]# git clone https://github.com/boconnor2017/vmw-e2e.git
 ```
 
-Navigate to the `\vmw-e2e` directory
+Navigate to the `/vmw-e2e` directory
 ```
 root@photon-machine [ /usr/local ]# cd vmw-e2e/
 ```
