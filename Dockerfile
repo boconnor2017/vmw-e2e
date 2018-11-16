@@ -1,6 +1,5 @@
 FROM nginxdemos/hello
 RUN apk update
-RUN apk add openssl
 RUN rm /usr/share/nginx/html/*
 RUN rm /etc/nginx/conf.d/*
 COPY web/* /usr/share/nginx/html/
