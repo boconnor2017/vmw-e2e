@@ -24,7 +24,7 @@ An E2E solution should therefore explicitly define the **people** and **process*
 9. The individual responsible for creating the E2E solution cannot be a member of The War Room
 
 # Getting Started
-Deploy [PhotonOS](https://vmware.github.io/photon/) to your laptop using [Fusion](https://www.vmware.com/products/fusion.html) or [Workstation](https://www.vmware.com/products/workstation-pro.html).
+Deploy [PhotonOS](https://vmware.github.io/photon/) to your laptop using [Fusion](https://www.vmware.com/products/fusion.html) or [Workstation](https://www.vmware.com/products/workstation-pro.html). PhotonOS can also be deployed to vSphere or AWS. 
 
 Open a PuTTY session and connect to your PhotonOS VM. Navigate to `/usr/local/` directory:
 ```
