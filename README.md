@@ -51,20 +51,4 @@ Start Docker
 root@photon-machine [ /usr/local/vmw-e2e ]# systemctl start docker
 ```
 
-Build the E2E docker image (yes the dot at the end of the command is intentional, dont forget to add it)
-```
-root@photon-machine [ /usr/local/vmw-e2e ]# docker build -t e2e-solutions .
-```
-
-Run the E2E container
-```
-root@photon-machine [ /usr/local/vmw-e2e ]# docker run --name e2e-gui -d -p 8080:80 e2e-solutions
-```
-
-Open port 8080
-```
- root@photon-machine [ /usr/local/vmw-e2e ]# iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
- root@photon-machine [ /usr/local/vmw-e2e ]# iptables -A OUTPUT -p tcp --dport 8080 -j ACCEPT
-```
-
-Open a browser. Enter `http://<photon_ip_address>:8080`
+Follow the process in one of the E2E solutions. For a list of available solutions click here.
