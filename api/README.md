@@ -5,4 +5,8 @@ If an E2E solution requires access to an API, the API commands can be found in t
 TBD
 
 ## Steps to setup PKS API
-`Command 1`
+Navigate to PKS directory
+`root@photon-machine [ /usr/local ]# cd vmw-e2e/api/PKS/`
+
+Install **unzip**
+`root@photon-machine [ /usr/local/vmw-e2e/api/PKS ]# yum install unzip`
