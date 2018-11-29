@@ -45,5 +45,9 @@ Client Version: version.Info{Major:"1", Minor:"10", GitVersion:"v1.10.8", GitCom
 
 Login to [VMC Portal](https://console.cloud.vmware.com/csp/gateway/portal/), open **VMWare Cloud PKS** and open the **Developer Center**. Generate a refresh token and run the following command:
 ```
-vke account login --organization 93a9beeb-d761-4551-bdba-e1f8b99fb995 --refresh-token <your_refresh_token>
+vke account login --organization <your_org_ID> --refresh-token <your_refresh_token>
+```
+```
+root@photon-machine [ /usr/local/vmw-e2e/api/PKS/pks ]# ./vke account login --organization 00x0xxxx-x000-0000-xxxx-x0x0x00xx000 --refresh-token 00000000-000x-0xxx-000x-00x000x000x0
+Login successful
 ```
