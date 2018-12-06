@@ -5,4 +5,4 @@ The following E2E solutions have been reviewed and approved by a panel of profes
 In Progress
 
 ### Intelligent Workload Placement
-In Progress
+The purpose of this solution is to provide a seamless and intelligent integration between vRealize Automation and vRealize Operations, such that workloads provisioned by a self service catalog are intelligently placed on the correct host without any manual intervention and based purely on policy. 
