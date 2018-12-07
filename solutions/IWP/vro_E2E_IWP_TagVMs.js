@@ -43,12 +43,10 @@ System.log("Endpoint ID: "+endpoint_id);
 var machine_custom_properties = machine.get("properties");
 if(machine_custom_properties!=null)
 {
-  for (var i=0; i < machine_custom_properties.length; i++)
-  {
-   System.log("Key: "+machine_custom_properties[i].get("key"));
-   System.log("Value: "+machine_custom_properties[i].get("value"));
-   System.log("Test: "+machine_custom_properties[i].get(machine_custom_properties[i].get("key")));
-  }
+  machine_custom_properties.keys.forEach(function(key){
+    System.log("key: "+key);
+    System.log("value: "+properties.get(key));
+  })
 }
 else
 {
