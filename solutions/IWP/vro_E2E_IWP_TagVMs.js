@@ -1,5 +1,5 @@
 /*
-Version: 1.0
+Version: 1.1
 Author: Brendan O'Connor (VMWare Professional Services)
 Date: December 2018
 Disclaimer: this solution is not a validated or copywrite solution from VMWare.
