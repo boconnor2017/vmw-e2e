@@ -1,9 +1,11 @@
 # API Reference
 If an E2E solution requires access to an API, the API commands can be found in the folders in this directory. 
 
-## Steps to setup HCX API
-Work in progress...
-
+## Steps to leverage HCX API
+The HCX API Reference Documentation is natively embedded in the HCX Appliance. To access this:
+```
+https://<HCX-Manager>/hybridity/docs
+```
 ## Steps to setup PKS Cloud API
 Navigate to PKS directory
 ```
