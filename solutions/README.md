@@ -12,5 +12,8 @@ The purpose of this solution is to provide a seamless and intelligent integratio
 ### AMI-Style Blueprinting
 In Progress
 
-### IaaS Cost Model
+### Blockchain as a Service
+In Progress
+
+### IaaS Cost Modeling
 In Progress
