@@ -1,0 +1,2 @@
+# Docker command for setting up software repository
+docker run -dit --name e2e-sw-repo -p 8080:80 -v //usr/local/vmw-e2e/data:/usr/local/apache2/htdocs/ httpd:2.4
