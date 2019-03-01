@@ -1,2 +1,14 @@
-# Docker command for setting up software repository
+# AMI-Style Blueprinting
+
+# Step 1: create software repository
+# Function: the purpose of the software repo is to store ISO/OVA files for vRA/vRO to pull during the provisioning process.
+
 docker run -dit --name e2e-sw-repo -p 8080:80 -v //usr/local/vmw-e2e/data:/usr/local/apache2/htdocs/ httpd:2.4
+
+# Step 2: upload images to /usr/local/vmw-e2e/data directory
+# Function: these images will be used as the base AMIs available for consumption. In this example, we're using 
+# the CentOS-7-x86_64-Minimal.iso from http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso
+# Login to http://<Photon IP Address>:8080 and you should see the ISO ready for download
+# Note: to setup authentication, see this blog: https://www.theorycrafter.org/quipu/creating-a-simple-download-server-with-apache/
+
+# Step 3: 
