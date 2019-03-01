@@ -11,4 +11,7 @@ docker run -dit --name e2e-sw-repo -p 8080:80 -v //usr/local/vmw-e2e/data:/usr/l
 # Login to http://<Photon IP Address>:8080 and you should see the ISO ready for download
 # Note: to setup authentication, see this blog: https://www.theorycrafter.org/quipu/creating-a-simple-download-server-with-apache/
 
-# Step 3: 
+# Step 3: change permissions to allow access to files
+
+chmod 644 *
+
