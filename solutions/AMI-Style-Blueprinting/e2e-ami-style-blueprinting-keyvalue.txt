@@ -1,0 +1,4 @@
+photon-3-base-ova, http://192.168.10.101:8080/photon-hw11-3.0-26156e2.ova
+photon-3-boc-001, http://192.168.10.101:8080/photon-hw11-3.0-26156e2.ova
+photon-3-boc-002, http://192.168.10.101:8080/photon-hw11-3.0-26156e2.ova
+photon-3-boc-003, http://192.168.10.101:8080/photon-hw11-3.0-26156e2.ova
