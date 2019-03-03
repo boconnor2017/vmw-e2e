@@ -18,17 +18,18 @@ chmod 644 *
 # Step 4: Configure vRA/vRO
 ## Step 4a: Login to vRO, go to "Resources", create a folder called "VMW-PSO-E2E-AMI-Style-Blueprinting"
 ## Step 4b: Import the file https://github.com/boconnor2017/vmw-e2e/blob/master/solutions/AMI-Style-Blueprinting/e2e-ami-style-blueprinting-keyvalue.txt
+
 ## Step 4c: Import the action https://github.com/boconnor2017/vmw-e2e/blob/master/solutions/AMI-Style-Blueprinting/getListOfAMIFromSWRepo.action
+
 ## Step 4d: Import the workflow https://github.com/boconnor2017/vmw-e2e/blob/master/solutions/AMI-Style-Blueprinting/Deploy%20AMI%20Blueprint.workflow
+
 ## Step 4e: Login to vRA, create an XaaS Blueprint called "Deploy AMI Blueprint"
 ##    XaaS Blueprint should map to the "Deploy AMI Blueprint" vRO workflow
 ##    In the custom request form, add a type "Dropdown" to the variable "nameOfAMI", map the values of the dropdown
 ##    to pull from "getListOfAMIFromSWRepo" action
-## Step 4f: Publish the catalog item, brand with E2E logo and run the workflow
-## Expected result: a dropdown menu with the following items:
+
+## Step 4f: Publish the catalog item, brand with E2E logo and run the "Deploy AMI Blueprint" catalog item
+## Expected result: should see a dropdown menu with the following items:
 ##      - photon-3-base-ova
-##      - photon-3-boc-001
-##      - photon-3-boc-002
-##      - photon-3-boc-003
 ##
-## The selected item should provision the appropriate OVA
+## Select the item from the dropdown. The selected item should provision the appropriate OVA
