@@ -1,5 +1,5 @@
 /*
-Version: 1.0
+Version: 1.1
 Author: Brendan O'Connor (VMWare Professional Services)
 Date: February 2019
 Disclaimer: this solution is not a validated or copywrite solution from VMWare.
@@ -13,7 +13,7 @@ How to use: leverage the documented process in the E2E AMI-Style Blueprinting.
 System.log("User: "+user+" has selected the following AMI: "+nameOfAMI);
 
 //Retrieve the key value pairs from ResourceElement
-contentMime = e2etest.getContentAsMimeAttachment();
+contentMime = e2eKeyValueResElem.getContentAsMimeAttachment();
 contentText = contentMime.content
 System.log("Parsing Resource Element Content: ");
 
