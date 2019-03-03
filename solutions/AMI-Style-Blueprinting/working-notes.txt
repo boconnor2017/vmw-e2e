@@ -30,5 +30,5 @@ chmod 644 *
 ##      - photon-3-boc-001
 ##      - photon-3-boc-002
 ##      - photon-3-boc-003
-
-# TODO: configure workflow from 4d to provision VM using "amiurl" variable
+##
+## The selected item should provision the appropriate OVA
