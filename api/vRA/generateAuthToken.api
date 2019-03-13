@@ -1,0 +1,3 @@
+curl --insecure -H "Accept: application/json" -H 'Content-Type: application/json' --data 
+'{"username":"e2euser@vsphere.local","password":"VMWare1!","tenant":"vcac"}'
+https://<vRA-appliance-fqdn>/identity/api/tokens
