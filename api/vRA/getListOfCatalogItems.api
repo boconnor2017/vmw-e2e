@@ -1,0 +1,43 @@
+# Prerequisite: generate authentication token
+
+# REST command:
+curl --insecure -H "Accept: $ACCEPT" -H "Authorization: Bearer $token" "https://vrlcmvraa05.cloudi/consumer/catalogItems"vice/api
+
+# Returns JSON (sample below):
+{
+    "links":[],
+    "content":[{
+    	"@type":"ConsumerCatalogItem",
+        "id":"fe46c556-b261-4f58-8353-2a7417357f9f",
+        "name":"Deploy AMI Blueprint",
+        "description":"Select a list of available AMI templates to provision.",
+        "iconId":"fe46c556-b261-4f58-8353-2a7417357f9f",
+        "serviceId":"47f136d8-d810-4b19-a591-7f20492d53cc",
+        "servicename":"E2E",
+        "subtenants":[{
+         	"href":null,
+         	"id":"4d0bd760-e917-45ba-9e63-47fe87d54448",
+         	"label":"csx-developers"
+         	}]
+         },
+         {
+         "@type":"ConsumerCatalogItem",
+         "id":"7d78f476-bcc7-4b9e-bfbf-e4ed6712e1fb",
+         "name":"Provision Base Linux VM",
+         "description":"Base catalog item with no OS. Used to provision VMs from JSON.",
+         "iconId":"7d78f476-bcc7-4b9e-bfbf-e4ed6712e1fb",
+         "serviceId":"47f136d8-d810-4b19-a591-7f20492d53cc",
+         "servicename":"E2E","subtenants":[{
+         	"href":null,
+         	"id":"4d0bd760-e917-45ba-9e63-47fe87d54448",
+         	"label":"csx-developers"
+         	}]
+         }],
+    "metadata":{
+    	"size":20,
+    	"totalElements":18,
+    	"totalPages":1,
+    	"number":1,
+    	"offset":0
+    }
+}
