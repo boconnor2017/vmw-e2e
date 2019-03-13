@@ -6,6 +6,13 @@ The HCX API Reference Documentation is natively embedded in the HCX Appliance. T
 ```
 https://<HCX-Manager>/hybridity/docs
 ```
+
+## Steps to leverage vRealize Automation API
+The vRA API Reference Documentation is natively embedded in the vRA Appliance. To access this:
+```
+https://<vRA-Appliance>/component-registry/services/docs
+```
+
 ## Steps to setup PKS Cloud API
 Navigate to PKS directory
 ```
