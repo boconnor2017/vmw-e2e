@@ -12,7 +12,7 @@ The purpose of this solution is to provide a seamless and intelligent integratio
 [Link to Internal VMWare Sharepoint: IWP v1.2](https://onevmw-my.sharepoint.com/:b:/g/personal/boconnor_vmware_com/Ef-Rxk3EgPZOv13we351i1sBW2LkAoh62WjncC3yGeTvVA?e=w6LL14)
 
 ### Device-Agnotic Blueprinting
-Device agnosticism is the capacity of a computing component to work with various systems without requiring any special adaptations. The term can apply to either hardware or software. In an IT context, agnosticism refers to anything that is designed to be compatible across most common systems. In this context, the purpose of this solution is to provide a method for deploying and creating blueprints on-demand ensuring the blueprints are "compatible across most common systems". Systems include cloud providers (vSphere, VMC, AWS, GPC, etc) or automation portals (vRealize Automation, Cloud Automation Services, ServiceNow).  
+Device agnosticism is the capacity of a computing component to work with various systems without requiring any special adaptations. The term can apply to either hardware or software. In an IT context, agnosticism refers to anything that is designed to be compatible across most common systems. The purpose of this solution is to provide a method for deploying and creating blueprints on-demand ensuring the blueprints are "compatible across most common systems". Systems include cloud providers (vSphere, VMC, AWS, GPC, etc) or automation portals (vRealize Automation, Cloud Automation Services, ServiceNow).  
 
 In Progress
 
