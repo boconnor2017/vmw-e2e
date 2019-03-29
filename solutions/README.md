@@ -11,7 +11,7 @@ The purpose of this solution is to provide a seamless and intelligent integratio
 
 [Link to Internal VMWare Sharepoint: IWP v1.2](https://onevmw-my.sharepoint.com/:b:/g/personal/boconnor_vmware_com/Ef-Rxk3EgPZOv13we351i1sBW2LkAoh62WjncC3yGeTvVA?e=w6LL14)
 
-### AMI-Style Blueprinting
+### Device-Agnotic Blueprinting
 The purpose of this solution is to provide an AWS-like experience through the vRealize Automation self-service catalog to create, clone, manage or delete VM templates (AMIs). End users should be able to provision and manage instances directly from the self-service catalog by selecting the AMI from a dropdown menu. 
 
 In Progress
