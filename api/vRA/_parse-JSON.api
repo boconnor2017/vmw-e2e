@@ -1,0 +1,5 @@
+# Prerequisite - jq needs to be installed
+# Prerequisite - authentication bearer token required
+# Prerequisite - json string stored to a .json file
+
+cat <json_file>.json | jq '.'
