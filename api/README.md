@@ -12,6 +12,7 @@ The vRA API Reference Documentation is natively embedded in the vRA Appliance. T
 ```
 https://<vRA-Appliance>/component-registry/services/docs
 ```
+For sample API calls navigate to `/api/vRA directory`
 
 ## Steps to setup PKS Cloud API
 Navigate to PKS directory
