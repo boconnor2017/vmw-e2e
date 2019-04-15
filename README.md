@@ -31,6 +31,11 @@ Open a PuTTY session and connect to your PhotonOS VM. Navigate to `/usr/local/` 
 root@photon-machine [ ~ ]# cd /usr/local/
 ```
 
+Install `jq` (used for parsing JSON)
+```
+root@photon-machine [ /usr/local ]# yum install jq
+```
+
 Install `git`
 ```
 root@photon-machine [ /usr/local ]# yum install git
