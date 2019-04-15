@@ -1,7 +1,7 @@
 # Prerequisite: generate authentication token
 
 # REST command:
-curl --insecure -H "Accept: $ACCEPT" -H "Authorization: Bearer $token" "https://vrlcmvraa05.cloudi/consumer/catalogItems"vice/api
+curl --insecure -H "Accept: $ACCEPT" -H "Authorization: Bearer $token" "https://<vra-fqdn>/consumer/catalogItems"
 
 # Returns JSON (sample below):
 {
