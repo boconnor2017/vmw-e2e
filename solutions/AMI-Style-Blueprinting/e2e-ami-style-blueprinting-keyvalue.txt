@@ -1,1 +1,0 @@
-photon-3-base-ova, http://<e2e-sw-repo-ip-address-or-fqdn>:8080/photon-hw11-3.0-26156e2.ova
