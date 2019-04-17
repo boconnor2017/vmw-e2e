@@ -54,3 +54,5 @@ Validate file permissions by running `ls -l`
 -rwxr-xr-x 1 root root  253 Apr 17 10:18 getContentByName.sh
 -rwxr-xr-x 1 root root  248 Apr 17 11:04 getPackages.sh
 ```
+
+Edit each of the sh scripts using `vi` command editor (or editor of choice). Replace `<vra-fqdn>` with the fully qualified domain name of your vRealize Automation instance.
