@@ -1,0 +1,1 @@
+curl --insecure -s -H "Content-Type: application/json" -H "Authorization: Bearer $token" https://<vra-fqdn>/content-management-service/api/packages -d'{"name" : '"$1"', "description" : '"$2"', "contents" : ['"$3"' ]}'
