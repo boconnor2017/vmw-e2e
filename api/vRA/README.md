@@ -40,3 +40,17 @@ Date: Wed, 13 Mar 2019 15:41:33 GMT
 X-Frame-Options: SAMEORIGIN
 ```
 
+Change permissions of the sh scripts
+```
+chmod 755 *.sh
+```
+
+Validate file permissions by running `ls -l`
+```
+-rwxr-xr-x 1 root root  237 Apr 17 12:22 createPackageById.sh
+-rwxr-xr-x 1 root root  580 Apr 17 10:13 full-token-refresh.sh
+-rwxr-xr-x 1 root root  249 Apr 17 10:34 getCatalogItemsByName.sh
+-rwxr-xr-x 1 root root  263 Apr 17 10:32 getContentByNameAndId.sh
+-rwxr-xr-x 1 root root  253 Apr 17 10:18 getContentByName.sh
+-rwxr-xr-x 1 root root  248 Apr 17 11:04 getPackages.sh
+```
