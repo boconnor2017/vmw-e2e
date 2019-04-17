@@ -2,4 +2,4 @@
 # Prerequisite - authentication bearer token required
 # Prerequisite - json string stored to a .json file
 
-cat <json_file>.json | jq '.'
+cat <json_file>.json | jq '.content[]'
