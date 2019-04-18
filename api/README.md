@@ -14,6 +14,12 @@ https://<vRA-Appliance>/component-registry/services/docs
 ```
 For sample E2E API calls see [vRA APIs](https://github.com/boconnor2017/vmw-e2e/blob/master/api/vRA/README.md)
 
+## Steps to leverage vSphere API
+The vSphere API Reference Documentation is natively embedded in the vCenter Server Appliance. To access this:
+```
+https://<vc-fqdn>/apiexplorer/
+```
+
 ## Steps to setup PKS Cloud API
 Navigate to PKS directory
 ```
