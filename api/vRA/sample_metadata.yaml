@@ -1,0 +1,10 @@
+name: "E2ETest2"
+productVersion: "7.5.0-SNAPSHOT"
+data:
+- locator: "composite-blueprint/DockerCoreOS.yaml"
+  name: "Docker - CoreOS"
+  description: "Docker - CoreOS"
+- locator: "composite-blueprint/Bones.yaml"
+  name: "Bones"
+  description: "Bones"
+exportTime: "2019-04-24T19:06:02.105Z"
