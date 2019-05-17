@@ -47,12 +47,21 @@ chmod 755 *.sh
 
 Validate file permissions by running `ls -l`
 ```
+-rw-r----- 1 root root 7982 Apr 25 00:17 content-raw.json
 -rwxr-xr-x 1 root root  237 Apr 17 12:22 createPackageById.sh
--rwxr-xr-x 1 root root  580 Apr 17 10:13 full-token-refresh.sh
--rwxr-xr-x 1 root root  249 Apr 17 10:34 getCatalogItemsByName.sh
--rwxr-xr-x 1 root root  263 Apr 17 10:32 getContentByNameAndId.sh
--rwxr-xr-x 1 root root  253 Apr 17 10:18 getContentByName.sh
--rwxr-xr-x 1 root root  248 Apr 17 11:04 getPackages.sh
+-rw-r----- 1 root root  713 Apr 26 12:08 csx_resolv.conf
+-rwxr-xr-x 1 root root  354 Apr 26 12:07 generateNewVRAToken.sh
+-rwxr-xr-x 1 root root  286 Apr 24 17:36 getContentByNameAndId.sh
+-rwxr-xr-x 1 root root  268 Apr 24 17:02 getPackagesByNameAndId.sh
+-rw-r----- 1 root root 2064 Apr 26 11:51 IaCv1.zip
+-rwxr-xr-x 1 root root  210 Apr 26 11:51 sample_exportPackage.sh
+-rwxr-xr-x 1 root root  307 Apr 25 00:30 sample_filterByCompositeBlueprint.sh
+-rwxr-xr-x 1 root root  303 Apr 26 11:50 sample_getContentsOfPackageById.sh
+-rwxr-xr-x 1 root root  191 Apr 26 11:55 sample_importPackage.sh
+-rwxr-xr-x 1 root root  332 Apr 26 11:49 working_createIaCPackage1.sh
+-rwxr-xr-x 1 root root  345 Apr 26 11:42 working_getCompositeBlueprintByNameAndId.sh
+-rwxr-xr-x 1 root root   36 Apr 26 12:08 working_refreshDNS.sh
+
 ```
 
 Edit each of the sh scripts using `vi` command editor (or editor of choice). Replace `<vra-fqdn>` with the fully qualified domain name of your vRealize Automation instance.
