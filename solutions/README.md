@@ -26,7 +26,7 @@ The purpose of this solution is to provide a base cost model for IT Financial Ma
 
 In Progress
 
-### vRealize Suite as Code
-The purpose of this solution is to provide the capability to deploy vRealize Suite (vRA, vRO, vROPS, vRLI, vRB) through a CICD pipeline. The JSON for each configuration should be stored in github (or equivalent) and should leverage vRealize Suite Lifecycle Manager API for complete end to end deployment. This solution is ideal for lab environments, non-production, and proof of concepts where the lifespan of the suite is shorter than a live environment. Blueprints as code should import automatically as long as the YAML files are checked into the repository. 
+### Ephemeral vRealize Suite as Code
+The purpose of this solution is to provide the capability to deploy vRealize Suite (vRA, vRO, vROPS, vRLI, vRB) through a CICD pipeline. The JSON for each configuration should be stored in github (or equivalent) and should leverage vRealize Suite Lifecycle Manager API for complete end to end deployment. This solution is ideal for lab environments, non-production, and proof of concepts where the lifespan of the suite is shorter than a live environment. Recommended: complete the `Ephemeral Blueprinting as Code` solution first so you can incorporate your blueprints into the CICD pipeline.  
 
 In Progress
