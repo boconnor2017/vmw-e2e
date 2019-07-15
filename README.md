@@ -56,4 +56,4 @@ Start Docker
 root@photon-machine [ /usr/local/vmw-e2e ]# systemctl start docker
 ```
 
-Follow the process in one of the E2E solutions. For a list of available E2E Solutions [click here](https://github.com/boconnor2017/vmw-e2e/wiki/List-of-E2E-Solutions). For API references [click here](https://github.com/boconnor2017/vmw-e2e/blob/master/api/README.md).
+Follow the process in one of the E2E solutions. For a list of available E2E Solutions [click here](https://github.com/boconnor2017/vmw-e2e/wiki/00.-List-of-E2E-Solutions). For API references [click here](https://github.com/boconnor2017/vmw-e2e/wiki/01.-API-References).
