@@ -37,7 +37,7 @@ root@photon-machine [ /usr/local/vmw-e2e ]# systemctl start docker
 ```
 
 # Next Steps:
-Follow a process in one of the E2E solutions on the wiki page. For a list of available E2E Solutions [click here](https://github.com/boconnor2017/vmw-e2e/wiki/Part-1:-the-List-of-E2E-Solutions). For API references [click here](https://github.com/boconnor2017/vmw-e2e/wiki/01.-API-References).
+Follow a process in one of the E2E solutions on the wiki page. For a list of available E2E Solutions [click here](https://github.com/boconnor2017/vmw-e2e/wiki/Part-1:-the-List-of-E2E-Solutions). For API references [click here](https://github.com/boconnor2017/vmw-e2e/wiki/Part-2:-API-References).
 
 # Prerequisites
 This repository contains source code and procedures to implement all E2E Solutions. Before implementing an E2E Solution, its important to have a target platform. For a list of suggested platforms to deploy E2E Solutions to, [click here](https://github.com/boconnor2017/vmw-e2e/wiki/01.-Creating-a-Lab-Environment).
