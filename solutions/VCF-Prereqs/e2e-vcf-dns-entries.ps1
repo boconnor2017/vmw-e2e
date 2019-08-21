@@ -1,4 +1,4 @@
-/*
+<#
 
 MANAGEMENT
 sfo01m01sddcmgr	sfo01.rainpole.local	172.16.11.60	SDDC Manager
@@ -21,8 +21,8 @@ sfo01w02nsxc01							172.16.11.120	NSX-T Controller 01 for Workload #2
 sfo01w02nsxc02							172.16.11.121	NSX-T Controller 02 for Workload #2
 sfo01w02nsxc03							172.16.11.122	NSX-T Controller 03 for Workload #2
 
-*/
+#>
 Add-DnsServerResourceRecordA -Name "sfo01m01sddcmgr" -ZoneName "sfo01.rainpole.local" -AllowUpdateAny -CreatePtr -IPv4Address "172.16.11.60"
 
 
-// TO BE CONTINUED... WORK IN PROGRESS
+# TO BE CONTINUED... WORK IN PROGRESS
